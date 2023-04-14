@@ -1,0 +1,18 @@
+GET http://localhost:8080/todos
+
+###
+
+POST http://localhost:8080/todo/new
+Content-Type: application/json
+
+{
+    "text":"Add your first todo"
+}
+
+###
+
+DELETE http://localhost:8080/todo/delete/642eeed87ade750cea75418c
+
+###
+
+PUT http://localhost:8080/todo/complete/642eeecc7ade750cea75418a
